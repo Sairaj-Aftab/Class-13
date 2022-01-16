@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div style="background: #e9e7e8;" class="big-clock d-flex justify-content-center">
+      <div class="clock mt-5">
+        <img src="https://i.pinimg.com/474x/c6/31/f1/c631f16af9be00f09986cc44039f0242.jpg" alt="">
+        <div class="time text-center">
+          <h3></h3>
+          <div class="sec">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <h6>s</h6>
+          </div>
+          <div class="year text-danger">hello</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box w-50 mx-auto mt-5">
+      <div class="start btn btn-primary">Start</div>
+      <div class="stop btn btn-danger">Stop</div>
+      <div class="reset btn btn-success">Reset</div>
+      <hr>
+      <input type="text" id="count">
+      <hr>
+      <div class="loadbox">
+        <div class="load"></div>
+      </div>
+      <h1>0</h1>
+    </div>
+
+    <div class="container w-25">
+        <div class="d-flex">
+          <div class="form-group">
+            <input type="text" class="form-control additem">
+          </div>
+          <div class="form-group">
+            <div class="btn add btn-primary">Add</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <ul class="pl-0 result">
+            
+          </ul>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </body>
+</html>

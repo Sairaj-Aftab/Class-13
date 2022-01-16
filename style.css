@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'LCD';
+    src: url(./font/alarm\ clock.ttf);
+}
+.big-clock{
+    font-family: 'LCD';
+}
+.clock{
+    position: relative;
+}
+.time{
+    position: absolute;
+    top: 191px;
+    right: 100px;
+}
+h3 {
+    color: #04ff00;
+    font-weight: bold;
+    font-size: 40px;
+}
+i{
+    color: red;
+    font-size: 70px !important;
+}
+.sec{
+    position: relative;
+}
+h6 {
+    color: #04ff00;
+    position: absolute;
+    top: 17px;
+    left: 51px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.load{
+    height: 10px;
+    width: 100%;
+    background: blue;
+    border-radius: 50px;
+}
+.loadbox{
+    border: 1px solid red;
+    border-radius: 50px;
+}
